@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+
+# Virtual environments / conda
+.env
+.venv
+env/
+venv/
+*.conda
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Large binary / data files
+*.zip
+*.gz
+*.tar
+*.npz
+*.npy
+*.mat
+*.hdf5
+*.h5
+demo_output/
+test_output/
+vis_output/
+
+# OpenSim generated files
+*.log
+*.sto
+*.mot
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+notes/*.pdf
