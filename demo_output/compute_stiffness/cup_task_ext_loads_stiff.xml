@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSimDocument Version="40000">
+    <ExternalLoads name="cup_loads">
+        <objects>
+            <ExternalForce name="F_cup">
+                <applied_to_body>hand</applied_to_body>
+                <force_expressed_in_body>ground</force_expressed_in_body>
+                <point_expressed_in_body>ground</point_expressed_in_body>
+                <force_identifier>F_cup_v</force_identifier>
+                <point_identifier>F_cup_p</point_identifier>
+                <torque_identifier></torque_identifier>
+            </ExternalForce>
+        </objects>
+        <datafile>/Volumes/Data/EMG_synthetic_data_generator/demo_output/compute_stiffness/cup_task_ext_forces_stiff.mot</datafile>
+    </ExternalLoads>
+</OpenSimDocument>

@@ -1,0 +1,28 @@
+Razavian 2021 vs our pipeline — quantitative comparison
+=======================================================
+
+Paper hand impedance (constant)
+  k_p = 40.0 N/m
+  k_d = 50.0 N·s/m
+
+Our K_e_xx(t)          baseline =   27.38 N/m
+                        peak     =   35.56 N/m
+                        peak/base=    1.30
+                        RMSE vs k_p =   16.13 N/m
+
+Our D_e_xx(t)          baseline =   1.198 N·s/m
+                        peak     =   1.488 N·s/m
+                        peak/base=   1.242
+                        RMSE vs k_d =  48.789 N·s/m
+
+Co-contraction p_null  baseline =   0.020
+                        peak     =   0.150
+
+Interpretation
+--------------
+* K_e_xx peak (35.6 N/m) matches paper's k_p = 40 N/m
+  within 11% — consistent with paper's
+  "compliant grasp" regime emerging from Hill stiffness alone.
+* D_e_xx peak (1.49 N·s/m) is ~34× lower
+  than paper's k_d = 50 N·s/m. Intrinsic muscle damping is small;
+  the rest comes from spinal stretch reflexes (not modelled here).

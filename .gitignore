@@ -20,14 +20,12 @@ venv/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
 # OS
 .DS_Store
 Thumbs.db
 
 # IDE
-.vscode/settings.json
 .idea/
 
 # Large binary / data files (matched everywhere)
@@ -35,19 +33,14 @@ Thumbs.db
 *.gz
 *.tar
 
-# Root-only output directories (use leading / to avoid matching inside submodule dirs)
-/demo_output/
-/test_output/
-/vis_output/
+
 
 # OpenSim generated output files
 *.log
 *.sto
 *.mot
 
-# NumPy / data output arrays (root-level only)
-/demo_output/**/*.npz
-/demo_output/**/*.npy
+
 
 # LaTeX build artifacts
 *.aux
