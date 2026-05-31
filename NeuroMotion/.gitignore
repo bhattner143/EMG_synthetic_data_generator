@@ -6,5 +6,5 @@ NeuroMotion/MNPoollib/__pycache__/
 
 figs/
 res/
-ckp/*.pth
+# ckp/*.pth  — tracked via root repo (model_linear.pth needed for inference)
 NeuroMotion/MSKlib/models/

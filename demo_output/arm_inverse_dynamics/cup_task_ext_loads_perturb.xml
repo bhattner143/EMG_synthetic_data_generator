@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSimDocument Version="40000">
+    <ExternalLoads name="perturbation_loads">
+        <objects>
+            <ExternalForce name="F_perturb">
+                <applied_to_body>hand</applied_to_body>
+                <force_expressed_in_body>ground</force_expressed_in_body>
+                <point_expressed_in_body>ground</point_expressed_in_body>
+                <force_identifier>F_perturb_v</force_identifier>
+                <point_identifier>F_perturb_p</point_identifier>
+                <torque_identifier></torque_identifier>
+            </ExternalForce>
+        </objects>
+        <datafile>/Volumes/Data/EMG_synthetic_data_generator/demo_output/arm_inverse_dynamics/cup_task_ext_forces_perturb.mot</datafile>
+    </ExternalLoads>
+</OpenSimDocument>

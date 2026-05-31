@@ -51,3 +51,9 @@ Thumbs.db
 *.out
 *.synctex.gz
 *.toc
+
+# Large external repos — too big for GitHub (720 MB+)
+repo/
+
+# Isaac Sim / Drake binary installer
+src/
