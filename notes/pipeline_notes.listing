@@ -1,4 +1,0 @@
-  Muscle        l_neutral (m)  l_opt (m)  ratio
-  BIClong          0.1162       0.1157     1.004
-  TRIlong          0.1621       0.1270     1.277  <- FAR FROM OPTIMAL
-  ...
