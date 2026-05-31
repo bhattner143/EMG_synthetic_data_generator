@@ -53,7 +53,7 @@ Thumbs.db
 *.toc
 
 # Large external repos — too big for GitHub (720 MB+)
-repo/
+# repo/   <- now tracked
 
 # Isaac Sim / Drake binary installer
 src/
